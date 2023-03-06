@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+</head>
+<body>
+    <div class="contenido">
+        <div class="ejem1">
+            <h1>EJEMPLO 1</h1>
+        </div>
+        <div class="ejem2">
+            <h1>EJEMPLO 2</h1>
+    </div>
+    <div class="ejem3">
+        <h1>EJEMPLO 3</h1>
+</div>
+<div class="ejem4">
+    <h1>EJEMPLO 4</h1>
+</div>
+
+    <style>
+        .contenido{
+            margin: 14px;
+            display:inline-flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            width: 100%;
+        }
+        .ejem1{
+            background: plum;
+             text-align: center;
+             font-family: 'Arial';
+             width: 40%;
+             color: white;
+             margin-bottom: 15px;
+
+            padding: 10px;
+        }
+        .ejem2{
+            background: rgb(162, 221, 160);
+             text-align: center;
+             font-family: 'Arial';
+             width: 40%;
+             color: white;
+             margin-bottom: 15px;
+
+            padding: 10px;
+        }
+        .ejem3{
+            background: rgb(160, 169, 221);
+             text-align: center;
+             font-family: 'Arial';
+             width: 40%;
+             color: white;
+             margin-bottom: 15px;
+            padding: 10px;
+        }
+        .ejem4{
+            background: rgb(221, 220, 160);
+             text-align: center;
+             font-family: 'Arial';
+             width: 40%;
+             color: white;
+             margin-bottom: 15px;
+            padding: 10px;
+        }
+
+    @media (max-width: 1250px)
+{
+    .contenido {
+        display:block; 
+    }
+    .ejem1, .ejem2, .ejem3, .ejem4 {
+        width: 100%;
+    }
+}
+    </style>
+</body>
+</html>
