@@ -1,0 +1,29 @@
+<Doctype HTML>
+
+ <head>Diego Alejandro Alvarez Gonzalez</head>
+  <body>
+	<div><h3>Soy Diseñador UX </h3></div>
+	<div> <h3> 17 años</h3></div>
+	<div><h3> Estudio Informatica</h3>
+       </div>
+    <div> <h3> Actualmente me encuentro en sexto </h3></div>
+    <div> <h3> Mis gustos son
+              Escuchar musica
+              <div>comer pizza</div>
+              <div>dibujar</div>
+              <div>y convivir con mis amigos</div>
+       </h3> 
+        </div>
+     <style type="text/css">
+      body {
+     	 text-align: center;
+     	   vertical-align: sub;
+     	     font-family: cursive;
+            color: black;
+            background-color: lightyellow;     
+ }
+</style>
+
+  </body>
+
+</DOCTYPE>
